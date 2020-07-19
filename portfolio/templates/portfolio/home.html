@@ -1,0 +1,27 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="homep">
+      <a href="{% url 'blog:blog' %}">Blog</a>
+      <a href="{% static "portfolio/resume.pdf" %}">Resume</a>
+      <img src="{% static "portfolio/profile1.png" %}" >
+    </div>
+
+    <div class="line">
+
+    </div>
+    <div class="tasks">
+      {% for i in pro  %}
+        <div class="task">
+        <img src="{{i.image.url}}" width="350" alt="">
+        <h1>{{i.title}}</h1>
+        <p>{{i.description}}</p>
+
+        <a href="{{i.url.url}}">linke</a>
+        </div>
+      {% endfor %}
+    </div>
+
+
+
+{%  endblock %}

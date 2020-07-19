@@ -1,0 +1,71 @@
+
+body{
+
+  background: floralwhite;
+}
+.nav{
+  width: 80vw;
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.nav h1{
+  margin-left: 45%;
+}
+
+.foot{
+  width: 80vw;
+  height: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.homep{
+  width: 50%;
+  background-color: aquamarine;
+  justify-content: space-around;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+
+}
+.homep img{
+  width: 100%;
+}
+
+.tasks{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  width: 70vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.task{
+
+  margin:3%;
+  display: inline-block;
+  text-align: right;
+}
+.task img{
+  width: 100%;
+  height: 50%;
+}
+.line{
+  border-radius: 2px;
+  margin: 5vw;
+  margin-left: 10vw;
+  margin-bottom: 0;
+  width: 80vw;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.2)
+}
+
+.form-control{
+  width: 80vw;
+  border-radius: 5px;
+
+}
